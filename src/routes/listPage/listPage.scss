@@ -1,0 +1,25 @@
+.listPages {
+    display: flex;
+    height: 100%;
+
+    .listContainer {
+        flex: 2px;
+        height: 100%;
+
+        .wrapper {
+            height: 100%;
+            padding-right: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            overflow-y: scroll;
+            padding-bottom: 60px;
+        }
+    }
+
+    .mapContainer {
+        flex: 2px;
+        height: 100%;
+        background-color: antiquewhite;
+    }
+}
